@@ -650,7 +650,7 @@ h6 {
 }
 
 #hero .icon-box {
-  padding: 50px 30px;
+  padding: 5px 3px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -724,8 +724,11 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+#hero{
+  padding-top: 80px;
+}
 section {
-  padding: 80px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
@@ -756,6 +759,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.action {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
