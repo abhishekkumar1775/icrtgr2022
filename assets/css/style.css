@@ -566,6 +566,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.action {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
