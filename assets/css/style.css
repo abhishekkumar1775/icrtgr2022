@@ -401,6 +401,19 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 80px;
 }
 
+.new_color{
+  color: #124265;
+}
+/* .main_logo
+{
+  display: inline;
+
+}
+.main_icrtgr
+{
+  text-align: left;
+  display: inline;
+} */
 #hero h1 {
   margin: 0;
   font-size: 56px;
@@ -797,6 +810,10 @@ section {
   min-height: 320px;
 }
 
+.testimonial-img
+{
+  width :25%;
+}
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
