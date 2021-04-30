@@ -31,7 +31,20 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+/* MYBUTTON */
+.mybutton{
+  background: #2487ce;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+}
 
+.mybutton:hover{
+  background: #2d90d6;
+}
+
+}
 /* Schedule Area */
 #schedule {
   background: #f3f4f3;
@@ -63,8 +76,8 @@ h6 {
 .schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link,
 .schedule .schedule-tab-title .nav-tabs .nav-link.active,
 .schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
-  background: #e91e63;
-  border: 1px solid #e91e63;
+  background: #2487ce;
+  border: 1px solid #2487ce;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -163,7 +176,7 @@ h6 {
 }
 
 .schedule .card-body .location span {
-  color: #e91e63;
+  color: #2487ce;
   margin-right: 5px;
 }
 
@@ -199,7 +212,7 @@ h6 {
 }
 
 .accordion .card-header i {
-  color: #e91e63;
+  color: #2487ce;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -213,6 +226,21 @@ h6 {
   padding-left: 56px;
 }
 
+/* important dates */
+
+#datess{
+  margin: 35px 5px;
+}
+.bara_bg{
+  text-decoration: wavy;
+}
+#dateh{
+  margin: 10px;
+}
+#datep{
+  line-height: 2;
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -333,7 +361,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 80px;
+  max-height: 60px;
 }
 
 @media (max-width: 992px) {
@@ -590,9 +618,12 @@ h6 {
   left: 0;
   right: 0;
 }
-
+#hero .container .pad
+{
+  padding-top: 1%;
+}
 #hero .container {
-  padding-top: 80px;
+  padding-top: 1%;
 }
 
 .new_color {
@@ -612,7 +643,9 @@ h6 {
   text-align: left;
   display: inline;
 } */
+
 #hero h1 {
+  text-align :center;
   margin: 0;
   font-size: 56px;
   font-weight: 700;
@@ -646,7 +679,7 @@ h6 {
 }
 
 #hero .icon-boxes {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 #hero .icon-box {
@@ -656,7 +689,7 @@ h6 {
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+  border-radius: 56px;
   z-index: 1;
 }
 
@@ -728,7 +761,7 @@ h6 {
   padding-top: 80px;
 }
 section {
-  padding: 10px 0;
+  padding: 15px 0;
   overflow: hidden;
 }
 
@@ -764,6 +797,7 @@ section {
   font-size: 14px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
+  text-align: left;
 }
 
 .about .content h3 {
@@ -991,10 +1025,10 @@ section {
 }
 
 .nit_logo div img {
-  max-width: 90%;
+  max-width: 100px;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
+  padding: 7px 0;
 }
 
 .nit_logo div img:hover {
@@ -1249,7 +1283,7 @@ section {
 .cta {
   background: #2487ce;
   background-size: cover;
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 .cta h3 {
@@ -1531,7 +1565,10 @@ section {
   position: relative;
   overflow: hidden;
 }
-
+.team .member .member-img img{
+  width: 160px;
+  height: auto;
+}
 .team .member .social {
   position: absolute;
   left: 0;
@@ -2146,4 +2183,35 @@ section {
   background: #3194db;
   color: #fff;
   text-decoration: none;
+}
+
+
+
+
+
+/* deepak additional */
+
+/* 8 photos */
+.sudharo{
+  justify-content: center;
+  border-radius: 50px;
+}
+.img_sudharo{
+  justify-content: center;
+  border-radius: 50px;
+  width: 200px;
+  margin: 10px;
+}
+
+/* About section */
+.abt_sec{
+  padding-top: 50px;
+  margin-top:50px ;
+}
+.section-title h2{
+  margin-top: 40px;
+}
+.clg_logo{
+  display: flex;
+  flex-direction: column;
 }
