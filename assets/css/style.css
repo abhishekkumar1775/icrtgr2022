@@ -31,6 +31,11 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+div .bullets{
+  text-align: right;
+  line-height: 2.1rem;
+}
 /* MYBUTTON */
 .mybutton{
   background: #2487ce;
