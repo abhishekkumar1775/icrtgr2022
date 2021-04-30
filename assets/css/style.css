@@ -32,7 +32,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 /* MYBUTTON */
-.mybutton{
+.mybutton {
   background: #2487ce;
   padding: 8px 20px;
   margin-left: 30px;
@@ -40,11 +40,10 @@ h6 {
   color: #fff;
 }
 
-.mybutton:hover{
+.mybutton:hover {
   background: #2d90d6;
 }
 
-}
 /* Schedule Area */
 #schedule {
   background: #f3f4f3;
@@ -228,16 +227,16 @@ h6 {
 
 /* important dates */
 
-#datess{
+#datess {
   margin: 35px 5px;
 }
-.bara_bg{
+.bara_bg {
   text-decoration: wavy;
 }
-#dateh{
+#dateh {
   margin: 10px;
 }
-#datep{
+#datep {
   line-height: 2;
   text-align: center;
   /* color: #3e9bdd; */
@@ -620,8 +619,7 @@ h6 {
   left: 0;
   right: 0;
 }
-#hero .container .pad
-{
+#hero .container .pad {
   padding-top: 1%;
 }
 #hero .container {
@@ -647,7 +645,7 @@ h6 {
 } */
 
 #hero h1 {
-  text-align :center;
+  text-align: center;
   margin: 0;
   font-size: 56px;
   font-weight: 700;
@@ -759,7 +757,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-#hero{
+#hero {
   padding-top: 80px;
 }
 section {
@@ -1567,7 +1565,7 @@ section {
   position: relative;
   overflow: hidden;
 }
-.team .member .member-img img{
+.team .member .member-img img {
   width: 160px;
   height: auto;
 }
@@ -2187,18 +2185,14 @@ section {
   text-decoration: none;
 }
 
-
-
-
-
 /* deepak additional */
 
 /* 8 photos */
-.sudharo{
+.sudharo {
   justify-content: center;
   border-radius: 50px;
 }
-.img_sudharo{
+.img_sudharo {
   justify-content: center;
   border-radius: 50px;
   width: 200px;
@@ -2206,14 +2200,14 @@ section {
 }
 
 /* About section */
-.abt_sec{
+.abt_sec {
   padding-top: 50px;
-  margin-top:50px ;
+  margin-top: 50px;
 }
-.section-title h2{
+.section-title h2 {
   margin-top: 40px;
 }
-.clg_logo{
+.clg_logo {
   display: flex;
   flex-direction: column;
 }
