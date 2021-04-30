@@ -31,7 +31,20 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+/* MYBUTTON */
+.mybutton{
+  background: #2487ce;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+}
 
+.mybutton:hover{
+  background: #2d90d6;
+}
+
+}
 /* Schedule Area */
 #schedule {
   background: #f3f4f3;
@@ -216,7 +229,7 @@ h6 {
 /* important dates */
 
 #datess{
-  margin: 60px 5px;
+  margin: 35px 5px;
 }
 .bara_bg{
   text-decoration: wavy;
@@ -226,6 +239,7 @@ h6 {
 }
 #datep{
   line-height: 2;
+  text-align: center;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -604,9 +618,12 @@ h6 {
   left: 0;
   right: 0;
 }
-
+#hero .container .pad
+{
+  padding-top: 22%;
+}
 #hero .container {
-  padding-top: 80px;
+  padding-top: 18%;
 }
 
 .new_color {
@@ -626,7 +643,9 @@ h6 {
   text-align: left;
   display: inline;
 } */
+
 #hero h1 {
+  text-align :center;
   margin: 0;
   font-size: 56px;
   font-weight: 700;
