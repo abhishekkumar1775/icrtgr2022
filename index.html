@@ -38,7 +38,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+  <header id="header" id="mainNavbar" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="#hero" class="logo"><img src="assets/img/mnit_logo.png" alt="" class="img-fluid" height="90px"></a>
@@ -2507,7 +2507,9 @@
               src="https://docs.google.com/forms/d/1fn_8eLYJK7edIrYArHHk_ZVeF_XUS9otFJR1V4OpMbA/edit?usp=sharing"
               width="640" height="1045" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7LPykgAOnOHMfn6gkQoXjMVlyW81WQpsNaUfEkLGprgLO0A/viewform?embedded=true" width="640" height="1040" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSd7LPykgAOnOHMfn6gkQoXjMVlyW81WQpsNaUfEkLGprgLO0A/viewform?embedded=true"
+              width="640" height="1040" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
           </div>
 
@@ -2644,6 +2646,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
 
 </body>
 
