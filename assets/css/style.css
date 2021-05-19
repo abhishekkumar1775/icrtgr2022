@@ -350,7 +350,7 @@ div .bullets {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: rgba(255, 255, 255, 0);
+  background: #f2fae2;
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -2244,4 +2244,12 @@ section {
 .clg_logo {
   display: flex;
   flex-direction: column;
+}
+
+/* ########################################################### */
+
+#navbar ul li>a{
+  font-weight: 500;
+  color: #0c3f66;
+
 }

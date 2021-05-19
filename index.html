@@ -39,27 +39,41 @@
 
   <!-- ======= Header ======= -->
   <header id="header" id="mainNavbar" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="#hero" class="logo"><img src="assets/img/mnit_logo.png" alt="" class="img-fluid" height="90px"></a>
+      <div class="d-flex flex-row justify-content-evenly align-items-center">
+        <a href="index.html" class="logo p1"><img src="assets/img/mnit_logo.png" alt="" class="img-fluid" height="90px">
+        </a>
+        <p class="lead p-0 mx-3 my-auto "><b>Malaviya National Institute of Technology, Jaipur</b>
+          <br>
+          <span>An Institute Of National Importance</span>
+        </p>
+      </div>
+
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="dropdown"><a href="#"><span><b>Information</b></span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#hero"><b>Home</b></a></li>
+
+          <li class="dropdown"><a href="#"><span><b>General Info</b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#about-video">About ICRTGR 2022</a></li>
+              <li><a class="nav-link scrollto" href="/about.html#about-conf">About ICRTGR 2022</a></li>
+              <li><a class="nav-link scrollto" href="#about-video">About the Institution</a></li>
               <li><a class="nav-link scrollto" href="#important_dates">Important Dates</a></li>
+              <li><a class="nav-link scrollto" href="#public-opp">Publication Opportunity</a></li>
               <!-- <li><a class="nav-link scrollto" href="#">Publication Opportunity</a></li> -->
-              <li><a class="nav-link scrollto" href="#team">Organizing Committees</a></li>
+              <li><a class="nav-link scrollto" href="#team">Organizing Committee</a></li>
               <!-- <li><a class="nav-link scrollto" href="#team">Scientific Committees</a></li> -->
               <!-- <li><a class="nav-link scrollto" href="#">Code of Conduct</a></li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span><b>Call for Papers </b></span> <i class="bi bi-chevron-down"></i></a>
+
+          <li><a class="nav-link scrollto" href="#collaborating"><b>Collaborating Institutes</b></a></li>
+          <li class="dropdown"><a href="#"><span><b>Call for Proposals</b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <!-- <li><a class="nav-link scrollto" href="#about">Conference Themes</a></li> -->
-              <li><a class="nav-link scrollto" href="#cta">Call for Papers</a></li>
-              <li><a class="nav-link scrollto" href="#abstract">Abstract submission Guidelines</a></li>
+              <li><a class="nav-link scrollto" href="#cta">Call for Proposals</a></li>
+              <li><a class="nav-link scrollto" href="#abstract-sub">Abstract submission Guidelines</a></li>
               <li><a class="nav-link scrollto" download="abstract"
                   href="assets/format_for_abstract_ICRTGR_2022.docx">Abstract
                   Format</a></li>
@@ -70,6 +84,9 @@
               <li><a class="nav-link scrollto" href="#">Modes of presentation</a></li> -->
             </ul>
           </li>
+
+          <li><a class="nav-link scrollto" href="https://easychair.org/conferences/?conf=icrtgr2022"
+              target="_blank"><b>Submission</b></a></li>
           <!-- <li class="dropdown"><a href="#"><span><b>Program </b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="#services">Program Overview</a></li>
@@ -83,16 +100,16 @@
             <ul>
 
               <li><a class="nav-link scrollto" href="#pricing">Registration Fee</a></li>
+              <li><a class="nav-link scrollto" href="#payment-info">Payment Info</a></li>
               <li><a class="nav-link scrollto"
                   href="https://docs.google.com/forms/d/1k1C45vfsgEXinxnmiHN997o6n-bikfOmdHT0Z4qjjTI/edit?ts=607fd9fb&gxids=7628"
-                  target="_blank">Registration Now</a></li>
+                  target="_blank">Register Now</a></li>
               <!-- <li><a class="nav-link scrollto" href="#">Online Registrations</a></li>
               <li><a class="nav-link scrollto" href="#">Payment Info</a></li>
               <li><a class="nav-link scrollto" href="#">Payment Info</a></li> -->
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact"><b>Contact Us</b></a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -416,7 +433,7 @@
 
 
             </p>
-            <a href="inner-page.html" class="btn-learn-more">Learn More</a>
+            <a href="about.html" class="btn-learn-more">Learn More</a>
           </div>
         </div>
 
@@ -707,7 +724,7 @@
     <section id="cta" class="cta" style="background: #0c3f66; border-radius:10px;">
       <div class="container" data-aos="zoom-in">
         <div class="text-center" style="max-width: 700px; margin: auto;">
-          <h3 style="line-height: 3;">Call for Papers</h3>
+          <h3 style="line-height: 3;">Call for Proposals</h3>
           <p> We invite authors to contribute their original papers/posters/research in progress for presentation in
             line with the conference sub-themes. </p>
           <ol class="action">
@@ -723,7 +740,7 @@
     </section><!-- End Cta Section -->
 
     <!-- Call for paper 2 -->
-    <section id="cfa" class="about">
+    <section id="cfa" class="about" style="height: 50vh;">
       <div class="container" data-aos="fade-up">
 
 
@@ -769,33 +786,7 @@
             <br>
             <br>
             <br>
-            <p class="blue_band">
-              <br>
-              <br>
-              <b>Publication Opportunities</b>
-              <br>
-              Selected papers of high academic standards will be published in a book of proceedings or reputed
-              journals indexed in Scopus or Web of Science.
-              <br>
-              <br>
-              <b>Who should attend?</b>
 
-              <br>
-              This conference would be beneficial to academicians, researchers, and policy planners, practicing
-              professionals in government & industry of various disciplines and are eligible to attend the conference.
-              <br>
-              <br>
-              <br>
-
-              <b>
-                <br>
-                <br>
-                <br>
-                <h3>Mode of the Conference: Hybrid</h3>
-
-              </b>
-              <br>
-            </p>
 
 
             <!-- <ul>
@@ -809,19 +800,45 @@
 
       </div>
     </section>
+
+    <section class="container text-center">
+      <p class="blue_band">
+        <br>
+        <br>
+        <b id="public-opp" class="display-5">Publication Opportunities</b>
+        <br>
+        <br>
+        Selected papers of high academic standards will be published in a book of proceedings or reputed
+        journals indexed in Scopus or Web of Science.
+        <br>
+        <br>
+        <b>Who should attend?</b>
+
+        <br>
+        This conference would be beneficial to academicians, researchers, and policy planners, practicing
+        professionals in government & industry of various disciplines and are eligible to attend the conference.
+        <br>
+        <br>
+        <br>
+
+        <b>
+          <br>
+          <br>
+          <br>
+          <h3>Mode of the Conference: Hybrid</h3>
+
+        </b>
+        <br>
+      </p>
+    </section>
     <!--ABSTRACT SUBMISSION GUIDELINES End About Section -->
 
     <!-- =======  Section ======= -->
-    <section id="cta" class="cta" style="background: #0c3f66; border-radius:10px;">
+    <section id="abstract-sub" class="cta" style="background: #0c3f66; border-radius:10px;">
       <div class="container" data-aos="zoom-in">
         <div class="text-center" style="max-width: 700px; margin: auto;">
           <h3 style="line-height: 3;">ABSTRACT SUBMISSION GUIDELINES</h3>
-          <div class="container" data-aos="zoom-in">
-            <div class="text-center">
-              <a class="cta-btn" href="https://easychair.org/conferences/?conf=icrtgr2022" target="_blank">Submit To
-                Easy Chair</a>
-            </div>
-          </div>
+
           <!-- <a class="cta-btn" href="#">Call for Papers</a> -->
         </div>
 
@@ -907,6 +924,13 @@
                 <div class="text-center">
                   <a class="cta-btn" href="assets/format_for_abstract_ICRTGR_2022.docx"
                     download="abstract format">Download template of Abstract format</a>
+                </div>
+                <div class="container" data-aos="zoom-in">
+                  <div class="text-center">
+                    <a class="cta-btn" href="https://easychair.org/conferences/?conf=icrtgr2022" target="_blank">Submit
+                      To
+                      Easy Chair</a>
+                  </div>
                 </div>
               </div>
             </section><!-- End Cta Section -->
@@ -2437,51 +2461,75 @@
     </section>
     <!-- End Pricing Section -->
 
+    <section id="payment-info" class="cta mt-5" style="background: #0c3f66;">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center p-5" style="max-width: 700px; margin: auto;">
+          <h3 style="line-height: 3;">Payment Info</h3>
 
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-
+          <!-- <a class="cta-btn" href="#">Call for Papers</a> -->
+          <p class="lead">
+            The bank demand draft/Cheque should be drawn in favor of “Registrar MNIT, Jaipur”. For online fee
+            submission, amount can be transferred to the account and reference information should be mailed along
+            registration form.
+            <br>
+            <br>
+            Bank Account Details:
+            Saving A/C No.: 676801700388 | Bank: ICICI Bank | Branch: MREC Branch, MNIT Jaipur
+            | IFSC Code: ICIC0006768 | MICR: 302229031| GST No.
+          </p>
         </div>
 
+      </div>
+
+    </section><!-- End Cta Section -->
+
+    <!-- Call for paper 2 -->
+    <section id="abstract" class="about">
+
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Contact</h2>
+
+          </div>
 
 
 
-        <div class="row mt-5">
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>MNIT Jaipur JLN Marg, Jaipur, Rajasthan 302017</p>
-              </div>
+          <div class="row mt-5">
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>icrtgr2022@mnit.ac.in</p>
-              </div>
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>MNIT Jaipur JLN Marg, Jaipur, Rajasthan 302017</p>
+                </div>
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p style="font-weight: bold; margin: left 10px;">+91-9829310220</p>
-                <p style="font-weight: bold; margin: left 10px;">+91-9166675836</p>
-                <!-- <p>+1 5589 55488 55s</p> -->
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>icrtgr2022@mnit.ac.in</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p style="font-weight: bold; margin: left 10px;">+91-9829310220</p>
+                  <p style="font-weight: bold; margin: left 10px;">+91-9166675836</p>
+                  <!-- <p>+1 5589 55488 55s</p> -->
+                </div>
+
               </div>
 
             </div>
 
-          </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -2503,28 +2551,28 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form> -->
-            <!-- <iframe
+              <!-- <iframe
               src="https://docs.google.com/forms/d/1fn_8eLYJK7edIrYArHHk_ZVeF_XUS9otFJR1V4OpMbA/edit?usp=sharing"
               width="640" height="1045" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSd7LPykgAOnOHMfn6gkQoXjMVlyW81WQpsNaUfEkLGprgLO0A/viewform?embedded=true"
-              width="640" height="1040" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSd7LPykgAOnOHMfn6gkQoXjMVlyW81WQpsNaUfEkLGprgLO0A/viewform?embedded=true"
+                width="640" height="1040" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+            </div>
 
           </div>
 
+          <div>
+            <iframe style="border:0; width: 100%; height: 270px;margin-top: 10px"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7433187.951592936!2d68.4655937753941!3d24.53785154800521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db66fe2879c7f%3A0xdfc843bf9b6f869a!2sMalaviya%20National%20Institute%20of%20Technology%20Jaipur!5e0!3m2!1sen!2sin!4v1618404290741!5m2!1sen!2sin"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+
+
+
         </div>
-
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;margin-top: 10px"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7433187.951592936!2d68.4655937753941!3d24.53785154800521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db66fe2879c7f%3A0xdfc843bf9b6f869a!2sMalaviya%20National%20Institute%20of%20Technology%20Jaipur!5e0!3m2!1sen!2sin!4v1618404290741!5m2!1sen!2sin"
-            frameborder="0" allowfullscreen></iframe>
-        </div>
-
-
-
-      </div>
-    </section><!-- End Contact Section -->
+      </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 

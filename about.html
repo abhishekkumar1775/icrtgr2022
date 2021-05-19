@@ -41,58 +41,85 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+  <header id="header" id="mainNavbar" class="fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="#hero" class="logo"><img src="assets/img/mnit_logo.png" alt="" class="img-fluid" height="90px"></a>
+      <div class="d-flex flex-row justify-content-evenly align-items-center">
+        <a href="index.html" class="logo p1"><img src="assets/img/mnit_logo.png" alt="" class="img-fluid" height="90px">
+        </a>
+        <p class="lead p-0 mx-3 my-auto "><b>Malaviya National Institute of Technology, Jaipur</b>
+          <br>
+          <span>An Institute Of National Importance</span>
+        </p>
+      </div>
+
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li class="dropdown"><a href="#"><span><b>Information</b></span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="index.html"><b>Home</b></a></li>
+
+          <li class="dropdown"><a href="#"><span><b>General Info</b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#about-video">About ICRTGR 2022</a></li>
-              <li><a class="nav-link scrollto" href="#datess">Important Dates</a></li>
+              <li><a class="nav-link scrollto" href="#about-conf">About ICRTGR 2022</a></li>
+              <li><a class="nav-link scrollto" href="index.html#about-video">About the Institution</a></li>
+              <li><a class="nav-link scrollto" href="index.html#important_dates">Important Dates</a></li>
+              <li><a class="nav-link scrollto" href="index.html#public-opp">Publication Opportunity</a></li>
               <!-- <li><a class="nav-link scrollto" href="#">Publication Opportunity</a></li> -->
-              <li><a class="nav-link scrollto" href="#team">Organizing Committees</a></li>
+              <li><a class="nav-link scrollto" href="index.html#team">Organizing Committee</a></li>
               <!-- <li><a class="nav-link scrollto" href="#team">Scientific Committees</a></li> -->
               <!-- <li><a class="nav-link scrollto" href="#">Code of Conduct</a></li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span><b>Call for Papers </b></span> <i class="bi bi-chevron-down"></i></a>
+
+          <li><a class="nav-link scrollto" href="index.html#collaborating"><b>Collaborating Institutes</b></a></li>
+          <li class="dropdown"><a href="#"><span><b>Call for Proposals</b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#about">Conference Themes</a></li>
-              <li><a class="nav-link scrollto" href="#">Abstract Format</a></li>
-              <li><a class="nav-link scrollto" href="#">Full Paper Format</a></li>
+              <!-- <li><a class="nav-link scrollto" href="#about">Conference Themes</a></li> -->
+              <li><a class="nav-link scrollto" href="index.html#cta">Call for Proposals</a></li>
+              <li><a class="nav-link scrollto" href="index.html#abstract-sub">Abstract submission Guidelines</a></li>
+              <li><a class="nav-link scrollto" download="abstract"
+                  href="assets/format_for_abstract_ICRTGR_2022.docx">Abstract
+                  Format</a></li>
+
+              <!-- <li><a class="nav-link scrollto" href="#">Full Paper Format</a></li>
               <li><a class="nav-link scrollto" href="#">Poster Format</a></li>
               <li><a class="nav-link scrollto" href="#">Abstract Review Process</a></li>
-              <li><a class="nav-link scrollto" href="#">Modes of presentation</a></li>
+              <li><a class="nav-link scrollto" href="#">Modes of presentation</a></li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span><b>Program </b></span> <i class="bi bi-chevron-down"></i></a>
+
+          <li><a class="nav-link scrollto" href="https://easychair.org/conferences/?conf=icrtgr2022"
+              target="_blank"><b>Submission</b></a></li>
+          <!-- <li class="dropdown"><a href="#"><span><b>Program </b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="#services">Program Overview</a></li>
               <li><a class="nav-link scrollto" href="#schedules">Schedule & Proceedings</a></li>
             </ul>
-          </li>
+          </li> -->
 
           <!-- <li><a class="nav-link scrollto" href="#"><b>Submission</b></a></li> -->
 
           <li class="dropdown"><a href="#"><span><b>Registrations </b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#pricing">Registration Fee</a></li>
+
+              <li><a class="nav-link scrollto" href="index.html#pricing">Registration Fee</a></li>
+              <li><a class="nav-link scrollto" href="index.html#payment-info">Payment Info</a></li>
+              <li><a class="nav-link scrollto"
+                  href="https://docs.google.com/forms/d/1k1C45vfsgEXinxnmiHN997o6n-bikfOmdHT0Z4qjjTI/edit?ts=607fd9fb&gxids=7628"
+                  target="_blank">Register Now</a></li>
               <!-- <li><a class="nav-link scrollto" href="#">Online Registrations</a></li>
-            <li><a class="nav-link scrollto" href="#">Payment Info</a></li>
-            <li><a class="nav-link scrollto" href="#">Payment Info</a></li> -->
+              <li><a class="nav-link scrollto" href="#">Payment Info</a></li>
+              <li><a class="nav-link scrollto" href="#">Payment Info</a></li> -->
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact"><b>Contact Us</b></a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact"><b>Contact Us</b></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
+
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -156,7 +183,7 @@
     <br>
     <br>
 
-    <section id="about" class="about">
+    <section id="about-conf" class="about">
       <div class="container" data-aos="fade-up">
 
 
@@ -225,7 +252,7 @@
 
   </main><!-- End #main -->
 
- 
+
   <!-- ======= Footer ======= -->
   <footer id="footer" style="background-color: #0c3f66;">
     <!-- <footer id="footer"> -->
