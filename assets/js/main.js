@@ -171,13 +171,11 @@
    * Preloader
    */
   let preloader = select("#preloader");
-  setTimeout(function () {
-    if (preloader) {
-      window.addEventListener("load", () => {
-        preloader.remove();
-      });
-    }
-  }, 1000);
+  if (preloader) {
+    window.addEventListener("load", () => {
+      preloader.remove();
+    });
+  }
 
   /**
    * Initiate glightbox
