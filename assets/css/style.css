@@ -2397,6 +2397,12 @@ section {
   font-size: 30px;
   padding: 20px;
 }
+.topphotologo{
+  border-radius: 50%;
+  border: 1pz solid red;
+  width: 65px;
+  margin: 5px;
+}
 @media screen and (max-width: 768px) {
   .impcont{
     display: flex;
@@ -2407,6 +2413,10 @@ section {
   .impdts{
   width: 93%;
   margin: 15px;
+  }
+  .topphotologo{
+  width: 50px;
+  margin: 1px;
   }
 }
 
@@ -2439,3 +2449,4 @@ blink {
     visibility: visible;
   }
 }
+
